@@ -15,7 +15,7 @@ spec:
         app: getting-started
     spec:
       containers:
-      - name: getting-started
+      - name: abhirami288/getting-started
         image: getting-started:latest
         imagePullPolicy: Always
         ports:
