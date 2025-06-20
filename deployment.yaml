@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: getting-started
-        image: nginx:latest
+        image: getting-started:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 80
